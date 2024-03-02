@@ -1,0 +1,130 @@
+.card-slider {
+    position: relative;
+    margin: 0 auto; /* Center the slider on the page */
+    overflow: hidden;
+    padding: 20px; /* Add padding to the entire card slider */
+    margin-left: 60px; /* Add space to the left side of the card slider */
+    margin-right: 60px; /* Add space to the right side of the card slider */
+  }
+  
+  .card-list {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .card {
+    flex: 0 0 auto;
+    width: 230px; /* Increase the width of each card */
+    height: 300px; /* Increase the height of each card */
+    padding: 20px; /* Padding inside each card */
+    margin: 10px; /* Adjust the space between cards */
+    border: 1px solid #adaaaa;
+  }
+  
+  .card img {
+    display: block;
+    width: 100%;
+    height: 150px; 
+  }
+  .card-body {
+    width: calc(100% - 0px); /* Adjusted width to account for padding */
+    padding: 10px 20px; /* Adjusted padding to remove space on left side */
+    background-color: #b3b7bb; /* Background color for card body */
+    height: 50%;
+    margin-left: -20px; /* Negative margin to compensate for the padding */
+  }
+
+  .cards-heading {
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    color: #333333;
+    margin-bottom: 50px;
+  }
+  
+  .shopping-icon { 
+    font-size: 24px;
+    color: #dd2626; /* Change color as needed */
+    position: relative;
+  }
+  
+  .cards-heading .line {
+    height: 1px;
+    width: 50px;
+    background-color: #9ca39c;
+    transition: width 0.3s ease;
+    display: inline-block; /* Display as inline-block */
+    margin: 0 10px; /* Adjust spacing around the line */
+  }
+  
+  .cards-heading:hover .line {
+    width: 100px;
+    background-color: aqua;
+  }
+  
+  
+
+  .card h2 {
+    color: rgb(231, 34, 34);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    text-align: center;
+    font-size: 70%;
+    color: #5f5b5b;
+    margin-bottom: 20px;
+  }
+  .search-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: #d82a2a;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    border-radius: 20px;
+    margin-left: 35px; /* Push the button to the bottom of the card */
+  }
+  
+ 
+.search-button:hover {
+  color: #dfee0e; /* Change text color on hover */
+}
+  
+  .prev,
+  .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(212, 23, 23, 0.884);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(223, 21, 21, 0.904);
+  }
+
+
+  
+  
