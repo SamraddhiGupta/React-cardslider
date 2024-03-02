@@ -125,6 +125,11 @@
     background-color: rgba(223, 21, 21, 0.904);
   }
 
-
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .cards-heading{
+    font-size: 12px;
+  }
+}
   
   
